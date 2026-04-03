@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas Babetto Atelier | Peças Exclusivas Sob Medida — Maringá</title>
+  <meta name="description" content="Lucas Babetto Atelier — Estilista e Designer de Moda em Maringá, PR. Peças exclusivas sob medida para momentos especiais. Vestidos de formatura, noiva, debutante. Atendimento com hora marcada ou online." />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+
+  <!-- AOS animations -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       SPLASH SCREEN
+  ============================================================ -->
+  <div id="splashScreen">
+    <canvas id="particleCanvas"></canvas>
+    <div class="splash-content">
+      <div class="splash-ornament">✦ &nbsp;&nbsp; ✦ &nbsp;&nbsp; ✦</div>
+      <h1 class="splash-title">Lucas Babetto</h1>
+      <div class="splash-divider"><span></span><em>A T E L I E R</em><span></span></div>
+      <p class="splash-tagline">Peças exclusivas para momentos especiais ✨</p>
+      <div class="splash-progress"><div class="splash-bar"></div></div>
+    </div>
+    <!-- Splash audio — will autoplay (short ambient chime/melody) -->
+    <audio id="splashAudio" autoplay preload="auto">
+      <!-- Audio src will be added when file is available -->
+    </audio>
+  </div>
+
+  <!-- ============================================================
+       MAIN SITE WRAPPER
+  ============================================================ -->
+  <div id="mainSite" style="opacity:0;visibility:visible;">
+
+    <!-- ── FLOATING WHATSAPP BUTTON ── -->
+    <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig"
+       target="_blank" rel="noopener noreferrer"
+       class="whatsapp-float" aria-label="Fale conosco no WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span class="whatsapp-tooltip">Fale conosco</span>
+    </a>
+
+    <!-- ── NAVIGATION ── -->
+    <nav id="mainNav">
+      <div class="nav-inner">
+        <a href="#inicio" class="nav-logo">
+          <span class="nav-logo-main">Lucas Babetto</span>
+          <span class="nav-logo-sub">A T E L I E R</span>
+        </a>
+        <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#colecao" class="nav-link">Coleção</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#agendamento" class="nav-link">Agendamento</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+          <li>
+            <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig"
+               target="_blank" rel="noopener noreferrer" class="nav-cta">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ============================================================
+         HERO SECTION — Cinematic Image Slideshow Background
+    ============================================================ -->
+    <section id="inicio" class="hero">
+      <!-- Slideshow background (non-interactive, behind everything) -->
+      <div class="hero-slideshow" aria-hidden="true">
+        <div class="slide active" style="background-image: url('https://instagram.fdub8-1.fna.fbcdn.net/v/t51.75761-15/479960593_18145702327371616_6589106915177690128_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzU3MjQ4NDc4NjEyMTExMjQxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc5Ni5zZHIuQzMifQ%3D%3D&_nc_ohc=5sYnE8CNiiwQ7kNvwG6hIRG&_nc_oc=AdrjDxLQS0luBifdTU396EcXctlrcFXxkwHVA-4LBuz_DbFvcqM6w_HJbMIA1Vnz1OEfQCkyUzx1iAavrogrns_B&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdub8-1.fna&_nc_gid=7YUsS4XGSGa1RFeHdf0nLQ&_nc_ss=7a32e&oh=00_Af2VIMwIhxDOapXyMQW5lHPCSqBBbYxyfzzZnfwICMBDQw&oe=69D6152A')"></div>
+        <div class="slide" style="background-image: url('https://instagram.fdub8-1.fna.fbcdn.net/v/t51.82787-15/630090106_18182122207371616_2097504481934094814_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzgzMTE2ODQxMjQwNDM2OTgwNTE4MTgyMTIyMjAxMzcxNjE2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjkwMHgxNjAwLnNkci5DMyJ9&_nc_ohc=vUo_fgtk3CUQ7kNvwGxpeN8&_nc_oc=AdplDNqTTnpjNoH6P56z8DQlBalwMIcMbpdw8VOzd5jDzXgR-Q10GBwX8771u6C60FeOf6jmt24WoBVlrHuxcr-x&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdub8-1.fna&_nc_gid=7YUsS4XGSGa1RFeHdf0nLQ&_nc_ss=7a32e&oh=00_Af305wj8BXGk_FFSLIGy--5dYRngMHD4wv64WRS-0klnqQ&oe=69D5EF46')"></div>
+        <div class="slide" style="background-image: url('https://instagram.fdub8-1.fna.fbcdn.net/v/t51.82787-15/641390248_18183808450371616_3252981979260085155_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzg0NDI0ODIzODM4ODQwMTkzMDE4MTgzODA4NDQ3MzcxNjE2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjg4NngxNTc2LnNkci5DMyJ9&_nc_ohc=I5-zD6Q85ucQ7kNvwFQPsLm&_nc_oc=AdpzCOB-sxRUEAokT4pwp3rFaS02ynMkjjIRxK-wGuITrSROCarQQFGE-NF6pfwUJ-pysnHblc0Un-wjw3Ff4Y9h&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdub8-1.fna&_nc_gid=7YUsS4XGSGa1RFeHdf0nLQ&_nc_ss=7a32e&oh=00_Af2IWBSOUabKi0lW-kPHLDJ6zJyA1VtOglEShgubo0qyPQ&oe=69D602C5')"></div>
+        <div class="slide" style="background-image: url('https://instagram.fdub8-1.fna.fbcdn.net/v/t51.82787-15/627499907_18181244056371616_7859879339353415486_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzgyMzk1MTIyOTEyNzQ3OTU1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyMDB4MTU5Mi5zZHIuQzMifQ%3D%3D&_nc_ohc=F6dDEzC8DVcQ7kNvwHXZ4K4&_nc_oc=AdohIoaV2LuBCDzdwfaFKw6RCPPKye2hgM_Nq_SPKmhn1gyas9T6pRt50ntYJCRYdU7qxcgXegrK1jQKSQKbtvH2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdub8-1.fna&_nc_gid=7YUsS4XGSGa1RFeHdf0nLQ&_nc_ss=7a32e&oh=00_Af3Mz0Nyt4Qb5t458Rfa13flcrQWzUvlWtu0waiBysYAmg&oe=69D5EDD9')"></div>
+        <div class="slide" style="background-image: url('https://instagram.fdub4-2.fna.fbcdn.net/v/t51.82787-15/622909117_18180390238371616_614885818121978319_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzgxOTU2MDM1MTE3NjgyMTYyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjk2MHgxMjczLnNkci5DMyJ9&_nc_ohc=FbYKO18b0FYQ7kNvwFzE6sh&_nc_oc=Adr0frbHCXTNlihSdX--xwgfA0wQ08AVhsKEL6fhymNf0iLNTqev8kI3ruRbKv7tai8Cdnse2VtD4SOnS1Fi1WdP&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdub4-2.fna&_nc_gid=7YUsS4XGSGa1RFeHdf0nLQ&_nc_ss=7a32e&oh=00_Af0P8sKNknnmvabIIjm2TKfvdbPLsNin0KXcNw0cRReqqQ&oe=69D5ECBF')"></div>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <div class="hero-badge">Maringá, Paraná &mdash; Brasil</div>
+        <h1 class="hero-title">
+          <span class="hero-title-main">Lucas Babetto</span>
+          <span class="hero-title-sub">A &nbsp; T &nbsp; E &nbsp; L &nbsp; I &nbsp; E &nbsp; R</span>
+        </h1>
+        <p class="hero-tagline">Peças exclusivas sob medida para momentos especiais</p>
+        <div class="hero-divider"><span></span></div>
+        <div class="hero-actions">
+          <a href="#agendamento" class="btn btn-gold">Agende sua Consulta</a>
+          <a href="#colecao" class="btn btn-outline">Ver Coleção</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.instagram.com/lucas.babetto/reels/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"><div class="scroll-dot"></div></div>
+      </div>
+    </section>
+
+    <!-- ── GOLD MARQUEE STRIP ── -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <span>✦ Sob Medida</span>
+        <span>✦ Bordado à Mão</span>
+        <span>✦ Peças Exclusivas</span>
+        <span>✦ Momentos Especiais</span>
+        <span>✦ Maringá, PR</span>
+        <span>✦ Somente Venda</span>
+        <span>✦ Atendimento Personalizado</span>
+        <span>✦ Sob Medida</span>
+        <span>✦ Bordado à Mão</span>
+        <span>✦ Peças Exclusivas</span>
+        <span>✦ Momentos Especiais</span>
+        <span>✦ Maringá, PR</span>
+        <span>✦ Somente Venda</span>
+        <span>✦ Atendimento Personalizado</span>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         ABOUT SECTION
+    ============================================================ -->
+    <section id="sobre" class="section-sobre">
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-image-col" data-aos="fade-right" data-aos-duration="1000">
+            <div class="sobre-img-frame">
+              <img src="https://instagram.fdub8-1.fna.fbcdn.net/v/t51.82787-15/630090106_18182122207371616_2097504481934094814_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzgzMTE2ODQxMjQwNDM2OTgwNTE4MTgyMTIyMjAxMzcxNjE2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjkwMHgxNjAwLnNkci5DMyJ9&_nc_ohc=vUo_fgtk3CUQ7kNvwGxpeN8&_nc_oc=AdplDNqTTnpjNoH6P56z8DQlBalwMIcMbpdw8VOzd5jDzXgR-Q10GBwX8771u6C60FeOf6jmt24WoBVlrHuxcr-x&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdub8-1.fna&_nc_gid=7YUsS4XGSGa1RFeHdf0nLQ&_nc_ss=7a32e&oh=00_Af305wj8BXGk_FFSLIGy--5dYRngMHD4wv64WRS-0klnqQ&oe=69D5EF46" alt="Lucas Babetto Atelier — vestido de noiva exclusivo" loading="lazy" />
+              <div class="sobre-img-accent"></div>
+            </div>
+            <div class="sobre-stats">
+              <div class="stat-item">
+                <span class="stat-num">+300</span>
+                <span class="stat-label">Peças Criadas</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Exclusivo</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">Maringá</span>
+                <span class="stat-label">Paraná, Brasil</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sobre-text-col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div class="section-label">O Atelier</div>
+            <h2 class="section-title">Onde o sonho<br /><em>se torna vestido</em></h2>
+            <div class="gold-line"></div>
+            <p class="sobre-text">
+              Lucas Babetto é estilista e designer de moda, especializado em peças exclusivas sob medida para momentos especiais. Cada criação é uma obra de arte — desenhada, modelada e bordada à mão com cristais, vidrilhos e strass, transformando vestidos em joias artesanais e únicas.
+            </p>
+            <p class="sobre-text">
+              Com atendimento personalizado com hora marcada (presencial ou online), o atelier oferece somente venda de peças exclusivas — sem aluguel. Você traz a inspiração, nós trazemos à vida.
+            </p>
+            <p class="sobre-text">
+              Localizado em Maringá, Paraná, atendemos noivas, formandas, debutantes e todas as mulheres que desejam brilhar em seus momentos mais especiais.
+            </p>
+            <div class="sobre-features">
+              <div class="feature-tag"><i class="fas fa-check"></i> Atendimento com hora marcada</div>
+              <div class="feature-tag"><i class="fas fa-check"></i> Online ou presencial</div>
+              <div class="feature-tag"><i class="fas fa-check"></i> Somente venda</div>
+              <div class="feature-tag"><i class="fas fa-check"></i> 100% sob medida</div>
+            </div>
+            <div class="sobre-actions">
+              <a href="#agendamento" class="btn btn-gold">Agendar Atendimento</a>
+              <a href="https://www.instagram.com/lucas.babetto/reels/" target="_blank" rel="noopener noreferrer" class="btn btn-text">
+                <i class="fab fa-instagram"></i> Ver no Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION DIVIDER ── -->
+    <div class="section-divider" aria-hidden="true"><span>✦</span></div>
+
+    <!-- ============================================================
+         COLLECTION / PORTFOLIO SECTION — PHOTOS
+    ============================================================ -->
+    <section id="colecao" class="section-colecao">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-label">Portfólio</div>
+          <h2 class="section-title">Nossas <em>Criações</em></h2>
+          <p class="section-subtitle">Cada peça conta uma história única. Cada detalhe, uma obra de arte.</p>
+        </div>
+
+        <!-- Photo Gallery -->
+        <div class="gallery-grid" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Card 1 -->
+          <article class="gallery-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="gallery-card-img-wrap">
+              <img src="https://instagram.fdub8-1.fna.fbcdn.net/v/t51.75761-15/479960593_18145702327371616_6589106915177690128_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzU3MjQ4NDc4NjEyMTExMjQxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc5Ni5zZHIuQzMifQ%3D%3D&_nc_ohc=5sYnE8CNiiwQ7kNvwG6hIRG&_nc_oc=AdrjDxLQS0luBifdTU396EcXctlrcFXxkwHVA-4LBuz_DbFvcqM6w_HJbMIA1Vnz1OEfQCkyUzx1iAavrogrns_B&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdub8-1.fna&_nc_gid=7YUsS4XGSGa1RFeHdf0nLQ&_nc_ss=7a32e&oh=00_Af2VIMwIhxDOapXyMQW5lHPCSqBBbYxyfzzZnfwICMBDQw&oe=69D6152A"
+                   alt="Vestido Verde Esmeralda — Lucas Babetto Atelier" loading="lazy" />
+              <div class="gallery-card-overlay">
+                <div class="gallery-card-overlay-content">
+                  <span class="gallery-card-cat">Formatura</span>
+                  <h3>Vestido Verde Esmeralda</h3>
+                  <p>Um verde único desenhado e desenvolvido exclusivamente. Decote frente única com gola alta, saia com vários volumes, fenda e jabô, combinada ao bordado engrampado com franjas de strass — uma peça digna de tapete vermelho.</p>
+                  <a href="#agendamento" class="btn btn-gold-sm">Quero a minha peça</a>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-card-body">
+              <h3 class="gallery-card-title">Vestido Verde Esmeralda</h3>
+              <p class="gallery-card-desc">Bordado engrampado com franjas de strass. Peça exclusiva para formatura de medicina.</p>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="gallery-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="gallery-card-img-wrap">
+              <img src="https://scontent-dfw5-2.cdninstagram.com/v/t39.30808-6/435101824_18113005432371616_6319128437072797356_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzM0NDEwOTU2NDU4Mzk1NTE5Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzMzV4MTY2OS5zZHIuQzMifQ%3D%3D&_nc_ohc=tkBCiaV3JQMQ7kNvwHwKMtW&_nc_oc=Adr4MKV6TRgB9reylL5jj4K8FroL2GxuG3PRkuZDYLbpXlAiYEH0zlVO4dJWNLqOyvEJEGK5Rix2MAg9OICHbiKx&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_gid=st5P0z4y3fOFHWUfjT_UPw&_nc_ss=7a32e&oh=00_Af0JBmeN0Qpj9NV0gS5fNtqYb7YlHkI2aAULSzEbZRjLuw&oe=69D60B4D"
+                   alt="Elegância Sob Medida — Lucas Babetto Atelier" loading="lazy" />
+              <div class="gallery-card-overlay">
+                <div class="gallery-card-overlay-content">
+                  <span class="gallery-card-cat">Formatura</span>
+                  <h3>Elegância Sob Medida</h3>
+                  <p>Vestido 2 em 1 — tubular de renda bordada e sobressaia com Jabô. Uma peça que tornou realidade o sonho idealizado para um grande dia especial.</p>
+                  <a href="#agendamento" class="btn btn-gold-sm">Quero a minha peça</a>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-card-body">
+              <h3 class="gallery-card-title">Elegância Sob Medida</h3>
+              <p class="gallery-card-desc">Vestido 2 em 1 com renda bordada e sobressaia. Exclusivo para grandes momentos.</p>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="gallery-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="gallery-card-img-wrap">
+              <img src="https://scontent-waw2-1.cdninstagram.com/v/t39.30808-6/429584705_18108832036371616_6367535925878975533_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzMxMzY1OTEzMDE4MjI1MTcwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Ihlg2hPIhVwQ7kNvwHGijsE&_nc_oc=AdqvaayYh1RhUNTwSCYaEmLJl03jcCZKxwfl0y69yzgWS1dO_tI7_gGr_yjvpueikxA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=YQMzVbZLtTcwG9xSadtjOg&_nc_ss=7a32e&oh=00_Af1T0brsli938OcJumnBLI6ZE1m2A_IE-CbTy6zJ-7G_Tg&oe=69D60C93"
+                   alt="Arte Bordada à Mão — Lucas Babetto Atelier" loading="lazy" />
+              <div class="gallery-card-overlay">
+                <div class="gallery-card-overlay-content">
+                  <span class="gallery-card-cat">Bordado Artesanal</span>
+                  <h3>Arte Bordada à Mão</h3>
+                  <p>Vestido todo bordado à mão com cristais, vidrilhos e strass. Cada pedraria colocada manualmente, cristal por cristal — transformando o vestido em uma joia artesanal e única.</p>
+                  <a href="#agendamento" class="btn btn-gold-sm">Quero a minha peça</a>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-card-body">
+              <h3 class="gallery-card-title">Arte Bordada à Mão</h3>
+              <p class="gallery-card-desc">Cristais engrampados, vidrilhos e strass. Uma joia artesanal única.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- ── Video Showcase ── -->
+        <div class="section-header" style="margin-top:5rem;" data-aos="fade-up">
+          <div class="section-label">Vídeos</div>
+          <h2 class="section-title">Trabalhos em <em>Movimento</em></h2>
+          <p class="section-subtitle">Clique para assistir — cada vídeo conta a história de uma criação única.</p>
+        </div>
+
+        <div class="video-grid" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Video 1 -->
+          <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="video-embed-wrap">
+              <blockquote class="instagram-media"
+                data-instgrm-captioned
+                data-instgrm-permalink="https://www.instagram.com/p/Cs8-guzgEfl/"
+                data-instgrm-version="14"
+                style="background:#FFF;border:0;border-radius:3px;box-shadow:0 0 1px 0 rgba(0,0,0,.5),0 1px 10px 0 rgba(0,0,0,.15);margin:0;max-width:100%;min-width:326px;padding:0;width:100%;">
+              </blockquote>
+            </div>
+            <div class="video-card-desc">
+              <span class="gallery-card-cat">Vestido de Festa</span>
+              <p>Assimetria, brilho, fluidez, sensualidade e elegância. Saia godê com fenda drapeada e decote assimétrico de gola alta, todo bordado feito manualmente com cristais.</p>
+            </div>
+          </div>
+
+          <!-- Video 2 -->
+          <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="video-embed-wrap">
+              <blockquote class="instagram-media"
+                data-instgrm-captioned
+                data-instgrm-permalink="https://www.instagram.com/p/C2x72ffPRAu/"
+                data-instgrm-version="14"
+                style="background:#FFF;border:0;border-radius:3px;box-shadow:0 0 1px 0 rgba(0,0,0,.5),0 1px 10px 0 rgba(0,0,0,.15);margin:0;max-width:100%;min-width:326px;padding:0;width:100%;">
+              </blockquote>
+            </div>
+            <div class="video-card-desc">
+              <span class="gallery-card-cat">Coleção Cápsula</span>
+              <p>Coleção Cápsula "Florecer" — corset estruturado com decote reto, mini saia com franjas longas sobrepostas proporcionando movimento e sensualidade.</p>
+            </div>
+          </div>
+
+          <!-- Video 3 -->
+          <div class="video-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="video-embed-wrap">
+              <blockquote class="instagram-media"
+                data-instgrm-captioned
+                data-instgrm-permalink="https://www.instagram.com/p/C3lqFsHAV6t/"
+                data-instgrm-version="14"
+                style="background:#FFF;border:0;border-radius:3px;box-shadow:0 0 1px 0 rgba(0,0,0,.5),0 1px 10px 0 rgba(0,0,0,.15);margin:0;max-width:100%;min-width:326px;padding:0;width:100%;">
+              </blockquote>
+            </div>
+            <div class="video-card-desc">
+              <span class="gallery-card-cat">Peça Exclusiva</span>
+              <p>Peça exclusiva sob medida — elegância e sofisticação em cada detalhe artesanal, criada com dedicação e amor.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="collection-cta" data-aos="fade-up">
+          <a href="https://www.instagram.com/lucas.babetto/reels/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark">
+            <i class="fab fa-instagram"></i> Ver mais no Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION DIVIDER ── -->
+    <div class="section-divider" aria-hidden="true"><span>✦</span></div>
+
+    <!-- ============================================================
+         SERVICES SECTION
+    ============================================================ -->
+    <section id="servicos" class="section-servicos">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-label">Serviços</div>
+          <h2 class="section-title">O que <em>criamos</em> para você</h2>
+          <p class="section-subtitle">Cada atendimento é personalizado. Você traz a inspiração, nós trazemos à vida.</p>
+        </div>
+
+        <div class="servicos-grid">
+          <div class="servico-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="servico-icon">✨</div>
+            <h3>Vestidos Sob Medida</h3>
+            <p>Cada peça é desenhada, modelada e confeccionada exclusivamente para você. Do croqui à entrega, tudo pensado para exaltar sua silhueta.</p>
+          </div>
+          <div class="servico-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="servico-icon">💎</div>
+            <h3>Bordado Artesanal</h3>
+            <p>Cristais, vidrilhos e strass aplicados manualmente, cristal por cristal. Uma técnica que transforma seu vestido em uma verdadeira joia artesanal.</p>
+          </div>
+          <div class="servico-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="servico-icon">👗</div>
+            <h3>Vestidos de Formatura</h3>
+            <p>Brilhe no seu grande dia com uma peça digna de tapete vermelho. Criações únicas que celebram sua conquista com a elegância que você merece.</p>
+          </div>
+          <div class="servico-card" data-aos="fade-up" data-aos-delay="250">
+            <div class="servico-icon">💍</div>
+            <h3>Vestidos de Noiva</h3>
+            <p>Realize o sonho do vestido perfeito para o dia mais especial. Cada detalhe pensado para que você esteja absolutamente deslumbrante.</p>
+          </div>
+          <div class="servico-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="servico-icon">🎀</div>
+            <h3>Vestidos de Debutante</h3>
+            <p>15 anos merecem uma peça tão única quanto esse momento. Uma criação que vai fazer esse dia ficar na memória para sempre.</p>
+          </div>
+          <div class="servico-card" data-aos="fade-up" data-aos-delay="350">
+            <div class="servico-icon">🌟</div>
+            <h3>Ocasiões Especiais</h3>
+            <p>Casamentos, formaturas, galas e eventos — sempre exclusivo. Para cada momento especial da sua vida, uma peça à sua altura.</p>
+          </div>
+        </div>
+
+        <!-- Info boxes -->
+        <div class="servicos-info" data-aos="fade-up" data-aos-delay="100">
+          <div class="info-box">
+            <i class="far fa-calendar-check"></i>
+            <div>
+              <strong>Atendimento com Hora Marcada</strong>
+              <span>Presencial ou Online — exclusivo e personalizado</span>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-store"></i>
+            <div>
+              <strong>Somente Venda</strong>
+              <span>Peças únicas e exclusivas — sem aluguel</span>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="far fa-clock"></i>
+            <div>
+              <strong>Seg. a Sex.</strong>
+              <span>Horários disponíveis mediante agendamento</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS / QUOTES STRIP ── -->
+    <div class="testimonial-strip" aria-hidden="true">
+      <div class="testimonial-inner" data-aos="fade-up">
+        <blockquote>
+          <em>"Elegante demais 🤩 Trabalho impecável!"</em>
+          <cite>— Cliente Lucas Babetto Atelier</cite>
+        </blockquote>
+        <div class="test-divider">✦</div>
+        <blockquote>
+          <em>"Esse sem dúvida foi um dos vestidos mais lindos que já vi. ❤️"</em>
+          <cite>— Cliente do Atelier</cite>
+        </blockquote>
+        <div class="test-divider">✦</div>
+        <blockquote>
+          <em>"Lindíssimo 😮👏 Impecável 😍❤️"</em>
+          <cite>— @inara_brigatto</cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         BOOKING SECTION
+    ============================================================ -->
+    <section id="agendamento" class="section-agendamento">
+      <div class="container">
+        <div class="agendamento-grid">
+          <div class="agendamento-info" data-aos="fade-right" data-aos-duration="1000">
+            <div class="section-label">Agendamento</div>
+            <h2 class="section-title">Agende sua<br /><em>Consulta</em></h2>
+            <div class="gold-line"></div>
+            <p>Atendimento exclusivo com hora marcada — presencial em Maringá ou online para todo o Brasil. Preencha o formulário e entraremos em contato para confirmar o horário.</p>
+
+            <div class="agendamento-contact-items">
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <strong>Endereço</strong>
+                  <span>R. Chicago, 16 - Jardim Los Angeles<br />Maringá - PR, 87080-420</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer">+55 44 99900-3789</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="far fa-envelope"></i>
+                <div>
+                  <strong>E-mail</strong>
+                  <a href="mailto:Atelier.lucasbabetto@gmail.com">Atelier.lucasbabetto@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="far fa-clock"></i>
+                <div>
+                  <strong>Horário de Atendimento</strong>
+                  <span>Segunda a Sexta</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig"
+               target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> Fale pelo WhatsApp
+            </a>
+          </div>
+
+          <div class="agendamento-form-col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div class="form-card">
+              <h3 class="form-title">Envie sua Solicitação</h3>
+              <p class="form-subtitle">Após o envio, entraremos em contato via e-mail ou pelo número informado.</p>
+
+              <form id="bookingForm" class="booking-form" novalidate>
+                <div class="form-group">
+                  <label for="clientName">Nome Completo <span class="req">*</span></label>
+                  <input type="text" id="clientName" name="clientName" placeholder="Seu nome completo" required autocomplete="name" />
+                </div>
+                <div class="form-group">
+                  <label for="clientEmail">E-mail <span class="req">*</span></label>
+                  <input type="email" id="clientEmail" name="clientEmail" placeholder="seu@email.com" required autocomplete="email" />
+                </div>
+                <div class="form-group">
+                  <label for="clientPhone">
+                    Telefone / WhatsApp <span class="req">*</span>
+                    <small>(preferencialmente WhatsApp)</small>
+                  </label>
+                  <input type="tel" id="clientPhone" name="clientPhone" placeholder="+55 44 99999-9999" required autocomplete="tel" />
+                </div>
+                <div class="form-group">
+                  <label for="clientMessage">Mensagem <span class="req">*</span></label>
+                  <textarea id="clientMessage" name="clientMessage" rows="5"
+                    placeholder="Conte-nos sobre o que você precisa: tipo de peça, ocasião especial, datas preferidas para atendimento... Verificaremos a disponibilidade e entraremos em contato!"
+                    required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-gold btn-full" id="submitBtn">
+                  <span class="btn-text">Enviar Solicitação</span>
+                  <span class="btn-loading hidden"><i class="fas fa-spinner fa-spin"></i> Enviando...</span>
+                </button>
+
+                <!-- Success message -->
+                <div class="form-success hidden" id="formSuccess">
+                  <div class="success-icon">✨</div>
+                  <h4>Solicitação enviada!</h4>
+                  <p>Obrigada! Recebemos sua solicitação. Entraremos em contato em breve via e-mail ou pelo número informado. ✨</p>
+                </div>
+
+                <!-- Error message -->
+                <div class="form-error hidden" id="formError">
+                  <p>Ocorreu um erro ao enviar. Por favor, entre em contato diretamente via <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig" target="_blank">WhatsApp</a> ou e-mail.</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION DIVIDER ── -->
+    <div class="section-divider" aria-hidden="true"><span>✦</span></div>
+
+    <!-- ============================================================
+         CONTACT SECTION
+    ============================================================ -->
+    <section id="contato" class="section-contato">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-label">Contato</div>
+          <h2 class="section-title">Fale <em>conosco</em></h2>
+          <p class="section-subtitle">Estamos aqui para transformar seu sonho em realidade.</p>
+        </div>
+
+        <div class="contato-grid">
+          <!-- Contact cards -->
+          <div class="contato-cards" data-aos="fade-right">
+            <div class="contato-card">
+              <div class="contato-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Atelier</h4>
+                <p>R. Chicago, 16 - Jardim Los Angeles<br />Maringá - PR, 87080-420</p>
+              </div>
+            </div>
+            <div class="contato-card">
+              <div class="contato-card-icon"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <h4>Telefone</h4>
+                <a href="tel:+554499900-3789">+55 44 99900-3789</a>
+              </div>
+            </div>
+            <div class="contato-card">
+              <div class="contato-card-icon"><i class="far fa-envelope"></i></div>
+              <div>
+                <h4>E-mail</h4>
+                <a href="mailto:Atelier.lucasbabetto@gmail.com">Atelier.lucasbabetto@gmail.com</a>
+              </div>
+            </div>
+            <div class="contato-card">
+              <div class="contato-card-icon"><i class="far fa-clock"></i></div>
+              <div>
+                <h4>Horário</h4>
+                <p>Segunda a Sexta</p>
+                <p style="font-size:.85rem;opacity:.7;">Mediante agendamento</p>
+              </div>
+            </div>
+
+            <div class="contato-social">
+              <a href="https://www.instagram.com/lucas.babetto/reels/" target="_blank" rel="noopener noreferrer" class="social-btn instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+                <span>@lucas.babetto</span>
+              </a>
+              <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer" class="social-btn whatsapp" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="contato-map" data-aos="fade-left">
+            <iframe
+              title="Localização Lucas Babetto Atelier"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.3!2d-51.9445!3d-23.4253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd0b1c82af5a1%3A0x0!2sR.%20Chicago%2C%2016%20-%20Jardim%20Los%20Angeles%2C%20Maring%C3%A1%20-%20PR%2C%2087080-420!5e0!3m2!1spt-BR!2sbr!4v1716000000000!5m2!1spt-BR!2sbr"
+              width="100%" height="400"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+    ============================================================ -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="container footer-top-inner">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span class="footer-logo-main">Lucas Babetto</span>
+              <span class="footer-logo-sub">A T E L I E R</span>
+            </div>
+            <p class="footer-tagline">Peças exclusivas sob medida para momentos especiais</p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/lucas.babetto/reels/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://api.whatsapp.com/message/UZQ2XM2FZ7H5E1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+              <a href="mailto:Atelier.lucasbabetto@gmail.com" aria-label="E-mail"><i class="far fa-envelope"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h5>Navegação</h5>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre o Atelier</a></li>
+              <li><a href="#colecao">Coleção</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#agendamento">Agendamento</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h5>Serviços</h5>
+            <ul>
+              <li><a href="#agendamento">Vestidos Sob Medida</a></li>
+              <li><a href="#agendamento">Vestidos de Formatura</a></li>
+              <li><a href="#agendamento">Vestidos de Noiva</a></li>
+              <li><a href="#agendamento">Vestidos de Debutante</a></li>
+              <li><a href="#agendamento">Bordado Artesanal</a></li>
+              <li><a href="#agendamento">Ocasiões Especiais</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact-col">
+            <h5>Contato</h5>
+            <p><i class="fas fa-map-marker-alt"></i> R. Chicago, 16 - Jardim Los Angeles<br />Maringá - PR, 87080-420</p>
+            <p><i class="fab fa-whatsapp"></i> <a href="tel:+554499900-3789">+55 44 99900-3789</a></p>
+            <p><i class="far fa-envelope"></i> <a href="mailto:Atelier.lucasbabetto@gmail.com">Atelier.lucasbabetto@gmail.com</a></p>
+            <p><i class="far fa-clock"></i> Segunda a Sexta</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>© 2026 Lucas Babetto Atelier. Todos os direitos reservados.</p>
+          <p class="footer-rights">Todas as peças e designs são propriedade intelectual de Lucas Babetto Atelier. Reprodução proibida.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /#mainSite -->
+
+  <!-- Instagram embed script -->
+  <script async defer src="//www.instagram.com/embed.js"></script>
+
+  <!-- AOS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Web3Forms (free email service, no backend needed) -->
+  <!-- EmailJS CDN -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
